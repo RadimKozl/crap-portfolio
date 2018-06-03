@@ -1,10 +1,69 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE HTML>
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>crap portfolio</title>
+    <meta name="keywords" content="HTML Course.HTML Tags">
+    <meta name="description" content="This web site is about HTML">
+    <meta name="author" content="Radim" >
+    <title>Making a HTML Layout with the Help of Table Tag</title>
+    <style>
+      a:link{color:white;font-size:30px;margin:5px;text-decoration:none;}
+      a:hover{text-decoration:underline;color:orange;}
+      a:visited{color:white;text-align:center;}
+      .footer{color:white;text-align:center;}
+    </style>
   </head>
   <body>
+    <table width="1000" align="center" bgcolor="pink" border="5">
 
+    <tr>
+    <th colspan="2"><h1>Welcome To HTML Web Site</h1>
+    </tr>
+
+    <tr>
+    <td width="1000" height="50" bgcolor="black" colspan="2">
+    <a href="index.html">HOME</a>
+    <a href="services.html">Services</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Our Motive</a>
+    </td>
+    </tr>
+
+    <tr>
+    <td width="700" height="600" bgcolor="skyblue" valign="top">
+    <h1><u>The Method Of Making Table web Site In HTML</u></h1>
+    <p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embded code for the video
+    you want to add. You can also type a keyword to search online for the video that best firs you document.
+    To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each
+    other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the
+    different galleries.
+    </p>
+    <img src="pictures\A1.jpg" width="700" height="400">
+    </td>
+    <td width="300" height="600" bgcolor="aqua" valign="top">
+    <marquee direction="down" height="280" onmouseout="this.start();" onmouseover="this.stop();">
+    <center>
+    <h3>
+    Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video
+    you want to add.
+    </h3>
+    </center>
+    </marquee>
+    <marquee direction="up" height="280" onmouseout="this.start();" onmouseout="this.stop();">
+    <center>
+    <img src="pictures\A2.jpg" width="100" height="100"><br><br>
+    <img src="pictures\A3.jpg" width="100" height="100"><br><br>
+    <img src="pictures\A4.jpg" width="100" height="100"><br><br>
+    </center>
+    </marquee>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan="2" width="1000" height="100" bgcolor="black">
+    <h1 class="footer">Copy Rights By Computerfever.com</h1>
+    </td>
+    </tr>
+    </table>
   </body>
 </html>
